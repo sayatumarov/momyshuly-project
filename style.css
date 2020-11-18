@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 1920px) {
+  header {
+    height: 847px;
+    background: url('img/header.png');
+    margin-top: -5px;
+    padding: 0;
+  }
+  header menu {
+    padding: 0;
+    height: 80px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  header menu .links {
+    margin-left: 15%;
+    padding-top: 26px;
+    display: flex;
+    flex-direction: row;
+  }
+  header menu .links a {
+    font-family: Poiret One;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 45px;
+  }
+  header menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 25px;
+  }
+  header .main-h {
+    height: 847px;
+    display: grid;
+    grid-template-columns: 440px 670px;
+    grid-column-gap: 272px;
+    justify-content: center;
+    margin-top: 105px;
+  }
+  header .main-h .inf {
+    margin-top: 75px;
+  }
+  header .main-h .inf h1 {
+    font-family: Kelly Slab;
+    font-size: 64px;
+    line-height: 30px;
+  }
+  header .main-h .inf .line {
+    margin-top: 75px;
+    width: 236px;
+    height: 31px;
+    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+  }
+  header .main-h .inf p {
+    text-align: right;
+  }
+  header .main-h .inf .words {
+    margin-top: 127px;
+  }
+}
