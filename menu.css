@@ -1,0 +1,24 @@
+menu {
+  padding: 0;
+  height: 80px;
+  margin: 0;
+  border-bottom: 1px solid #000000;
+}
+menu .links {
+  margin-left: 15%;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+menu .links a {
+  font-family: Poiret One;
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 45px;
+}
+menu .links a:hover {
+  border-bottom: 3px solid orange;
+  padding-bottom: 25px;
+}
