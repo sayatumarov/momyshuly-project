@@ -1,0 +1,91 @@
+@media (max-width: 1920px) {
+  .content{
+    margin-top: 134px;
+  }
+  .heading {
+    display: flex;
+    flex-direction: row;
+  }
+  .heading h1 {
+    font-family: Kelly Slab;
+    font-size: 48px;
+    line-height: 16px;
+    z-index: 2;
+  }
+  .heading .h-line {
+    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+    width: 693px;
+    height: 26px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 350px;
+  }
+  main span {
+    color: #D4643F;
+  }
+  .content{
+    width: 1077px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .film-1{
+    display: grid;
+    grid-template-columns: 637px 300px;
+    grid-column-gap: 110px;
+    margin-top: 69px;
+  }
+  h2{
+    font-family: Poiret One;
+    font-size: 36px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  h3{
+    font-family: Podkova;
+    font-size: 24px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  ul{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  li{
+    font-family: Podkova;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1.5px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .heading-2{
+    display: flex;
+    flex-direction: row;
+  }
+  .heading-2 p{
+    font-family: Kelly Slab;
+    font-size: 48px;
+    line-height: 16px;
+    margin-left: -8px;
+  }
+  .line{
+    width: 157px;
+    height: 64px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+  }
+  .film-2{
+    display: grid;
+    grid-template-columns: 300px 621px;
+    grid-column-gap: 126px;
+    margin-top: 69px;
+  }
+  .film-2 ul{
+    text-align: right;
+  }
+  .film-2 h2{
+    margin-left: 27%;
+  }
+}
