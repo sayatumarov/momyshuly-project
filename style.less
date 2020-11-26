@@ -64,4 +64,43 @@ body{
     }
     }
   }
+  main{
+    height: 3304px;
+    background: linear-gradient(180deg, #2B2B2B 0%, #000000 52.08%, #2B2B2B 100%);
+    .content{
+      margin-top: 128px;
+      display: grid;
+      grid-template-rows: 408px 408px 408px 408px 408px;
+      grid-template-columns: 1284px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      .card{
+        background: url('img/card.png');
+        padding-top: 84px;
+        justify-content: center;
+        h1{
+          color: white;
+          font-family: Poiret One;
+          font-size: 45px;
+          line-height: 33px;
+          letter-spacing: 2.2px;
+          left: 50%;
+          transform: translate(-50%);
+          margin-top: -40px;
+          grid-column: none;
+        }
+      }
+      .first{
+        display: grid;
+        grid-template-columns: 167px 195px 320px;
+        grid-column-gap: 52px;
+      }
+      .second{
+        display: grid;
+        grid-template-columns: 192px 326px 151px 367px;
+        grid-column-gap: 27px;
+      }
+    }
+  }
 }
