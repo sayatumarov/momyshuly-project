@@ -1,4 +1,11 @@
+body{
+  margin: 0;
+}
 @media (max-width: 1920px) {
+  main{
+    background-image: url('img/bck.png');
+    height: 2413px;
+  }
   .content{
     margin-top: 134px;
   }
@@ -80,6 +87,98 @@
     display: grid;
     grid-template-columns: 300px 621px;
     grid-column-gap: 126px;
+    margin-top: 69px;
+  }
+  .film-2 ul{
+    text-align: right;
+  }
+  .film-2 h2{
+    margin-left: 27%;
+  }
+}
+@media (max-width: 1500px) {
+  main{
+    background-image: url('img/bck.png');
+    background-size: 1500px 1809px;
+    height: 1809px;
+  }
+  .content{
+    margin-top: 134px;
+  }
+  .heading {
+    display: flex;
+    flex-direction: row;
+  }
+  .heading h1 {
+    font-size: 40px;
+    line-height: 16px;
+  }
+  .heading .h-line {
+    width: 579px;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 285px;
+  }
+  main span {
+    color: #D4643F;
+  }
+  .content{
+    width: 900px;
+  }
+  .film-1{
+    display: grid;
+    grid-template-columns: 545px 250px;
+    grid-column-gap: 70px;
+    margin-top: 35px;
+  }
+  .film-1 img{
+    width: 250px;
+    height: 360.83px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 15px;
+    letter-spacing: 2px;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+  ul{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  li{
+    font-family: Podkova;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .heading-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  .heading-2 p{
+    font-family: Kelly Slab;
+    font-size: 40px;
+    line-height: 16px;
+    margin-left: -10px;
+    margin-top: 35px;
+  }
+  .line{
+    width: 102px;
+    height: 42px;
+    margin-top: 20px;
+  }
+  .film-2{
+    display: grid;
+    grid-template-columns: 250px 524px;
+    grid-column-gap: 120px;
     margin-top: 69px;
   }
   .film-2 ul{

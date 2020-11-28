@@ -22,3 +22,26 @@ menu .links a:hover {
   border-bottom: 3px solid orange;
   padding-bottom: 25px;
 }
+@media (max-width: 1500px) {
+  menu {
+    padding: 0;
+    height: 45px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 14px;
+    line-height: 27px;
+    margin-left: 40px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 25px;
+  }
+}
