@@ -216,3 +216,202 @@ figcaption {
     letter-spacing: 1px;
   }
 }
+@media (max-width: 1440px) {
+  menu {
+    height: 45px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 14px;
+    line-height: 27px;
+    margin-left: 40px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  header {
+    background: url('header.png') no-repeat center;
+    background-size: 1440px 762px;
+    height: 762px;
+  }
+  header .main-h {
+    margin-top: 71px;
+    width: 830px;
+  }
+  header .main-h .heading .line {
+    position: absolute;
+    width: 670px;
+    height: 23px;
+    margin-top: 15px;
+  }
+  header .main-h .heading h1 {
+    width: 754px;
+    font-size: 40px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    z-index: 3;
+    margin-left: 80px;
+  }
+  header .main-h p {
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+  header .main-h figcaption {
+    font-family: Poiret One;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  header .main-h figure {
+    width: 200px;
+    margin: 0;
+    margin-right: 16px;
+    float: left;
+  }
+  header .main-h figure img {
+    width: 200px;
+    height: 277px;
+  }
+  header .main-h article {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+  }
+  main .block-1 {
+    height: 426px;
+  }
+  main .block-1 .fidel {
+    color: white;
+    width: 830px;
+  }
+  main .block-1 .fidel p {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  main .block-1 .fidel .story {
+    display: grid;
+    grid-template-columns: 597px 215px;
+    grid-column-gap: 18px;
+  }
+  main .block-1 .fidel figure {
+    margin-top: 0;
+    margin-left: 0;
+    width: 215px;
+  }
+  main .block-1 .fidel figure img {
+    width: 215px;
+    height: 253.11px;
+  }
+  main .block-1 .fidel figure figcaption {
+    text-align: center;
+  }
+  main .block-1 .fidel article {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+  }
+  main .block-2 {
+    background: url('bck.png') no-repeat;
+    background-size: 1440px 471px;
+    height: 471px;
+  }
+  main .block-2 .content {
+    width: 830px;
+    margin-top: 42px;
+  }
+  main .block-2 .content p {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  main .block-2 .content .story {
+    display: grid;
+    grid-template-columns: 200px 610px;
+    grid-column-gap: 20px;
+  }
+  main .block-2 .content img {
+    width: 200px;
+    height: 240.97px;
+  }
+  main .block-2 .content figure {
+    margin-top: 0;
+    margin-left: 0;
+    width: 200px;
+  }
+  main .block-2 .content figure figcaption {
+    text-align: center;
+  }
+  main .block-2 .content article {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+  }
+  main .block-3 {
+    height: 1883px;
+  }
+  main .block-3 .content {
+    margin-top: 37px;
+    width: 830px;
+  }
+  main .block-3 .content p {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+  }
+  main .block-3 .content article {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+  }
+  main .block-3 .content .part-1 {
+    display: grid;
+    grid-template-columns: 633px 170px;
+  }
+  main .block-3 .content .part-1 figure {
+    margin: 0;
+  }
+  main .block-3 .content .part-1 figure img {
+    width: 170px;
+    height: 220.4px;
+  }
+  main .block-3 .content .part-1 figure figcaption {
+    text-align: center;
+  }
+  main .block-3 .content .part-2 {
+    line-height: 25px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+  }
+  main .block-3 .content .part-2 figure {
+    margin: 0;
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+    width: 180px;
+  }
+  main .block-3 .content .part-2 figure img {
+    width: 180px;
+    height: 255.55px;
+  }
+  main .block-3 .content .part-2 figure figcaption {
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
