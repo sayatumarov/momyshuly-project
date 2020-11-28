@@ -70,34 +70,165 @@ body {
     display: grid;
     grid-template-rows: 408px 408px 408px 408px 408px;
     grid-template-columns: 1284px;
+    grid-row-gap: 173px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
   }
-  main .content .card {
-    background: url('img/card.png');
-    padding-top: 84px;
+}
+@media (max-width: 1500px) {
+  menu {
+    height: 45px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 14px;
+    line-height: 27px;
+    margin-left: 40px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  header {
+    height: 672px;
+    background: url('img/header.png');
+    background-size: 1500px 672px;
+    margin-top: -5px;
+    padding: 0;
+  }
+  header .main-h {
+    height: 672px;
+    display: grid;
+    grid-template-columns: 329px 527px;
+    grid-template-rows: 512px;
+    grid-column-gap: 220px;
     justify-content: center;
+    margin-top: 55px;
   }
-  main .content .card h1 {
-    color: white;
-    font-family: Poiret One;
-    font-size: 45px;
-    line-height: 33px;
-    letter-spacing: 2.2px;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: -40px;
-    grid-column: none;
+  header .main-h .main-img {
+    width: 329px;
+    height: 517px;
   }
-  main .content .first {
+  header .main-h .inf {
+    margin-top: 20px;
+  }
+  header .main-h .inf h1 {
+    font-size: 50px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+  }
+  header .main-h .inf .line {
+    margin-top: 45px;
+    width: 176px;
+    height: 25px;
+  }
+  header .main-h .inf p {
+    text-align: right;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  header .main-h .inf .words {
+    margin-top: 101px;
+  }
+  main {
+    height: 2478px;
+    margin-top: -60px;
+  }
+  main .content {
+    margin-top: 111px;
     display: grid;
-    grid-template-columns: 167px 195px 320px;
-    grid-column-gap: 52px;
+    grid-template-rows: 286px 286px 286px 286px 286px;
+    grid-template-columns: 900px;
+    grid-row-gap: 126px;
   }
-  main .content .second {
+  main .content .card {
+    width: 900px;
+    height: 285.98px;
+  }
+}
+@media (max-width: 1000px) {
+  menu {
+    height: 40px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 14px;
+    line-height: 27px;
+    margin-left: 40px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 2px;
+  }
+  header {
+    height: 554px;
+    background: url('img/header.png');
+    background-size: 1000px 554px;
+    margin-top: -5px;
+    padding: 0;
+  }
+  header .main-h {
+    height: 361px;
     display: grid;
-    grid-template-columns: 192px 326px 151px 367px;
-    grid-column-gap: 27px;
+    grid-template-columns: 230px 380px;
+    grid-template-rows: 361px;
+    grid-column-gap: 113px;
+    justify-content: center;
+    margin-top: 95px;
+  }
+  header .main-h .main-img {
+    width: 230px;
+    height: 361px;
+  }
+  header .main-h .inf {
+    margin-top: 20px;
+  }
+  header .main-h .inf h1 {
+    font-size: 35px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+  }
+  header .main-h .inf .line {
+    margin-top: 24px;
+    width: 131px;
+    height: 15px;
+  }
+  header .main-h .inf p {
+    text-align: right;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  header .main-h .inf .words {
+    margin-top: 25px;
+  }
+  main {
+    height: 2000px;
+    margin-top: -60px;
+  }
+  main .content {
+    margin-top: 111px;
+    display: grid;
+    grid-template-rows: 256px 256px 256px 256px 256px;
+    grid-template-columns: 760px;
+    grid-row-gap: 90px;
+  }
+  main .content .card {
+    width: 760px;
+    height: 256.47px;
   }
 }
