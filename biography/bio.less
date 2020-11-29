@@ -111,7 +111,7 @@ body{
     }
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1440px) {
   menu {
     padding: 0;
     height: 45px;
@@ -142,6 +142,7 @@ body{
   }
   main{
     background-image: url('img/bck.png');
+    background-size: 1440px 2581px;
     background-position: center;
     height: 2581px;
     margin: 0;
@@ -168,8 +169,8 @@ body{
             width: 429px;
             height: 20px;
             position: absolute;
-            margin-top: 45px;
-            margin-left: 350px;
+            margin-top: 40px;
+            margin-left: 320px;
           }
         }
           font-family: Podkova;
@@ -182,7 +183,7 @@ body{
         .right{
           float: right;
           margin-left: 0px;
-          margin-top: 20px;
+          margin-top: 0px;
           max-width: 250px;
           font-family: Poiret One;
           font-size: 15px;
@@ -191,39 +192,198 @@ body{
           margin: 0;
           margin-right: 10px;
         }
-        figure:first-of-type{
-          margin-top: 10px;
+        .left{
+          float: left;
           margin-right: 20px;
+          margin-top: 20px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          p{
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: -2px;
+            line-height: 12px;
+          }
+        }
+        .first{
+          width: 250px;
           img{
             width: 250px;
             height: 135.01px;
           }
         }
-        .left:first-of-type{
+        figcaption{
+          text-align: center;
+        }
+        .second{
           width: 200px;
+          margin-top: 10px;
+          margin-right: 20px;
           img{
             width: 200px;
             height: 77.3px;
           }
         }
-        .left:last-of-type{
+        .third{
           width: 250px;
+          margin-top: 10px;
+          margin-right: 20px;
           img{
             width: 250px;
             height: 169.49px;
           }
         }
-        .right:last-of-type{
+        .fourth{
           width: 210px;
           img{
             width: 210px;
             height: 154.35px;
           }
-          figcaption{
-            font-size: 15px;
-            line-height: 20px;
-            text-align: center;
+        }
+        .line{
+          width: 579px;
+          height: 26px;
+          background: linear-gradient(90deg, #F29653 0%, #D4643F 100%);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+          margin-top: 107px;
+        }
+      }
+      .timeline{
+        margin-top: 107px;
+        height: 1890px;
+        width: 100px;
+      }
+    }
+  }
+}
+@media (max-width: 1000px) {
+  menu {
+    padding: 0;
+    height: 40px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 13px;
+    line-height: 27px;
+    margin-left: 35px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 2px;
+  }
+  menu .links a:nth-of-type(2) {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  main{
+    background-image: url('img/bck.png');
+    background-size: 1000px 2373px;
+    background-position: center;
+    height: 2373px;
+    margin: 0;
+    .content{
+      display: grid;
+      grid-template-columns: 570px;
+      grid-column-gap: 100px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      margin-top: 92px;
+      height: 2250px;
+      grid-template-rows: auto;
+      .bio{
+        .heading{
+          display: flex;
+          flex-direction: row;
+          h1{
+            font-size: 30px;
+            line-height: 16px;
           }
+          .h-line{
+            width: 336px;
+            height: 16px;
+            position: absolute;
+            margin-top: 30px;
+            margin-left: 235px;
+          }
+        }
+          font-family: Podkova;
+          font-size: 14px;
+          line-height: 18px;
+          letter-spacing: 1px;
+          p{
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 1px;
+          }
+          span{
+            color: #D4643F;
+          }
+        .right{
+          float: right;
+          margin-left: 0px;
+          margin-top: 20px;
+          max-width: 212px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          margin-right: 10px;
+        }
+        .first{
+          width: 212px;
+          img{
+            width: 212px;
+            height: 119px;
+          }
+        }
+        .second{
+          width: 191px;
+          margin-right: 30px;
+          img{
+            width: 191px;
+            height: 74px;
+          }
+        }
+        .third{
+          width: 200px;
+          img{
+            width: 200px;
+            height: 135.59px;
+          }
+        }
+        .fourth{
+          width: 180px;
+          img{
+            width: 180px;
+            height: 132.3px;
+          }
+        }
+        figcaption{
+          font-size: 12px;
+          line-height: 17px;
+          text-align: center;
+        }
+        br:first-of-type{
+          display: none;
+        }
+        br:nth-of-type(2){
+          display: none;
+        }
+        figure:first-of-type{
+          margin-right: 20px;
+          margin-top: 10px;
         }
         .left{
           float: left;
@@ -242,14 +402,286 @@ body{
           }
         }
         .line{
-          width: 579px;
-          height: 26px;
-          background: linear-gradient(90deg, #F29653 0%, #D4643F 100%);
-          transform: matrix(-1, 0, 0, 1, 0, 0);
-          margin-top: 165px;
+          width: 282px;
+          height: 15px;
+          margin-top: 23px;
         }
       }
       .timeline{
+        display: none;
+        margin-top: 107px;
+        height: 1890px;
+        width: 100px;
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  menu {
+    padding: 0;
+    height: 40px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 5%;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 12px;
+    line-height: 27px;
+    margin-left: 18px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 2px;
+  }
+  menu .links a:nth-of-type(2) {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  main{
+    background-image: url('img/bck.png');
+    background-size: 600px 2490px;
+    background-position: center;
+    height: 2490px;
+    margin: 0;
+    .content{
+      display: grid;
+      grid-template-columns: 350px;
+      grid-column-gap: 0px;
+      margin-top: 92px;
+      height: 2300px;
+      grid-template-rows: auto;
+      .bio{
+        .heading{
+          display: flex;
+          flex-direction: row;
+          h1{
+            font-size: 25px;
+            line-height: 16px;
+          }
+          .h-line{
+            width: 231px;
+            height: 16px;
+            position: absolute;
+            margin-top: 25px;
+            margin-left: 110px;
+          }
+        }
+          font-family: Podkova;
+          font-size: 12px;
+          line-height: 15px;
+          letter-spacing: 1px;
+          p{
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 1px;
+          }
+          span{
+            color: #D4643F;
+          }
+        .right{
+          float: right;
+          margin-left: 0px;
+          margin-top: 20px;
+          max-width: 120px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          margin-right: 10px;
+        }
+        figure:first-of-type{
+          margin-top: 10px;
+          margin-right: 20px;
+          img{
+            width: 120px;
+            height: 88px;
+          }
+        }
+        .left:first-of-type{
+          width: 130px;
+          img{
+            width: 130px;
+            height: 54px;
+          }
+        }
+        .right:last-of-type{
+          width: 120px;
+          img{
+            width: 120px;
+            height: 67px;
+          }
+          figcaption{
+            font-size: 12px;
+            line-height: 17px;
+            text-align: center;
+          }
+        }
+        figcaption{
+          font-size: 12px;
+          line-height: 17px;
+        }
+        br:first-of-type{
+          display: none;
+        }
+        br:nth-of-type(2){
+          display: none;
+        }
+        .left{
+          float: left;
+          margin-right: 20px;
+          margin-top: 20px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          p{
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: -2px;
+            line-height: 12px;
+          }
+        }
+        .line{
+          width: 282px;
+          height: 15px;
+          margin-top: 23px;
+        }
+      }
+      .timeline{
+        display: none;
+        margin-top: 107px;
+        height: 1890px;
+        width: 100px;
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  menu {
+    padding: 0;
+    height: 40px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: row;
+  }
+  menu .links a {
+    font-size: 8px;
+    line-height: 27px;
+    margin-left: 6px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 2px;
+  }
+  menu .links a:nth-of-type(2) {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  main{
+    background-image: url('img/bck.png');
+    background-size: 600px 2490px;
+    background-position: center;
+    height: 1926px;
+    margin: 0;
+    .content{
+      display: grid;
+      grid-template-columns: 250px;
+      grid-column-gap: 0px;
+      margin-top: 92px;
+      height: 1800px;
+      .bio{
+        .heading{
+          display: flex;
+          flex-direction: row;
+          h1{
+            font-size: 19px;
+            line-height: 16px;
+          }
+          .h-line{
+            width: 165px;
+            height: 11px;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 85px;
+          }
+        }
+          font-family: Podkova;
+          font-size: 8px;
+          line-height: 10px;
+          letter-spacing: 1px;
+          p{
+            font-size: 10px;
+            line-height: 14px;
+            letter-spacing: 1px;
+          }
+          span{
+            color: #D4643F;
+          }
+        .right{
+          float: right;
+          margin-left: 0px;
+          margin-top: 20px;
+          max-width: 120px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          margin-right: 10px;
+        }
+        .first{
+          width: 100px;
+          img{
+            width: 100px;
+            height: 56.13px;
+          }
+        }
+        figcaption{
+          font-size: 8px!important;
+          line-height: 10px!important;
+        }
+        br:first-of-type{
+          display: none;
+        }
+        br:nth-of-type(2){
+          display: none;
+        }
+        .left{
+          float: left;
+          margin-right: 20px;
+          margin-top: 20px;
+          font-family: Poiret One;
+          font-size: 15px;
+          line-height: 20px;
+          letter-spacing: 1px;
+          margin: 0;
+          p{
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: -2px;
+            line-height: 12px;
+          }
+        }
+        .line{
+          width: 120px;
+          height: 8px;
+          margin-top: 23px;
+        }
+      }
+      .timeline{
+        display: none;
         margin-top: 107px;
         height: 1890px;
         width: 100px;
