@@ -1,6 +1,9 @@
 span {
   color: #D4643F;
 }
+body {
+  margin: 0;
+}
 @media (max-width: 1920px) {
   menu {
     padding: 0;
@@ -26,8 +29,13 @@ span {
     border-bottom: 3px solid orange;
     padding-bottom: 25px;
   }
+  menu .links a:last-of-type {
+    border-bottom: 3px solid orange;
+    padding-bottom: 25px;
+  }
   main {
     height: 2413px;
+    background-image: url('bck.png');
   }
   main .content {
     width: 1077px;
@@ -119,5 +127,145 @@ span {
   }
   main .content .book-right .inf a {
     color: #D4643F;
+  }
+  main .content .more {
+    font-family: Podkova;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    margin-top: 97px;
+  }
+}
+@media (max-width: 1440px) {
+  menu {
+    height: 45px;
+    border-bottom: 1px solid #000000;
+  }
+  menu .links {
+    margin-left: 15%;
+    padding-top: 11px;
+  }
+  menu .links a {
+    font-size: 14px;
+    line-height: 27px;
+    margin-left: 40px;
+  }
+  menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  menu .links a:last-of-type {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  main {
+    height: 1809px;
+    background-image: url('bck.png');
+    background-size: 1440px 1809px;
+  }
+  main .content {
+    width: 830px;
+  }
+  main .content .heading {
+    margin-top: 134px;
+  }
+  main .content .heading h1 {
+    font-family: Kelly Slab;
+    font-size: 38px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    margin-top: -35px;
+  }
+  main .content .heading .line {
+    width: 533px;
+    height: 25px;
+    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+    margin-left: 300px;
+  }
+  main .content .book-left {
+    display: grid;
+    grid-template-columns: 120px 695px;
+    margin-top: 82px;
+    grid-column-gap: 17px;
+  }
+  main .content .book-left img {
+    width: 120px;
+    height: 184.24px;
+  }
+  main .content .book-left .inf {
+    margin-top: -30px;
+  }
+  main .content .book-left .inf h2 {
+    font-family: Poiret One;
+    font-size: 25px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  main .content .book-left .inf article {
+    font-family: Podkova;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 2px;
+  }
+  main .content .book-left .inf p,
+  main .content .book-left .inf a {
+    font-family: Podkova;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 2px;
+  }
+  main .content .book-left .inf p {
+    margin-bottom: 0;
+  }
+  main .content .book-left .inf a {
+    color: #D4643F;
+  }
+  main .content .book-right {
+    display: grid;
+    grid-template-columns: 681px 120px;
+    margin-top: 71px;
+    grid-column-gap: 29px;
+  }
+  main .content .book-right img {
+    width: 120px;
+    height: 184.24px;
+  }
+  main .content .book-right .inf {
+    margin-top: -25px;
+  }
+  main .content .book-right .inf h2 {
+    font-size: 28px;
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  main .content .book-right .inf article {
+    font-family: Podkova;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 2px;
+  }
+  main .content .book-right .inf p,
+  main .content .book-right .inf a {
+    font-family: Podkova;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 2px;
+  }
+  main .content .book-right .inf p {
+    margin-bottom: 0;
+  }
+  main .content .book-right .inf a {
+    color: #D4643F;
+  }
+  main .content .book-right:last-of-type img {
+    width: 120px;
+    height: 135.53px;
+  }
+  main .content .more {
+    font-family: Podkova;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 97px;
   }
 }

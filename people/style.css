@@ -40,6 +40,10 @@ figcaption {
     background: url('header.png') no-repeat center;
     height: 1016px;
   }
+  header a:nth-of-type(4) {
+    border-bottom: 3px solid orange;
+    padding-bottom: 25px;
+  }
   header .main-h {
     position: absolute;
     left: 50%;
@@ -234,6 +238,10 @@ figcaption {
     margin-left: 40px;
   }
   menu .links a:hover {
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+  }
+  menu .links a:nth-of-type(4) {
     border-bottom: 3px solid orange;
     padding-bottom: 5px;
   }

@@ -1,6 +1,9 @@
 span{
   color: #D4643F;
 }
+body{
+  margin: 0;
+}
 @media (max-width: 1920px) {
   menu{
     margin: 0;
@@ -25,11 +28,15 @@ span{
           border-bottom: 3px solid orange;
           padding-bottom: 25px;
         }
-
+        a:last-of-type{
+          border-bottom: 3px solid orange;
+          padding-bottom: 25px;
+        }
     }
   }
   main{
     height: 2413px;
+    background-image: url('bck.png');
     .content{
       width: 1077px;
       position: absolute;
@@ -117,6 +124,146 @@ span{
             color: #D4643F;
           }
         }
+      }
+      .more{
+        font-family: Podkova;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 2px;
+        margin-top: 97px;
+      }
+    }
+  }
+}
+@media (max-width: 1440px) {
+  menu{
+    height: 45px;
+    border-bottom: 1px solid #000000;
+    .links{
+      margin-left: 15%;
+      padding-top: 11px;
+        a{
+          font-size: 14px;
+          line-height: 27px;
+          margin-left: 40px;
+        }
+        a:hover{
+          border-bottom: 3px solid orange;
+          padding-bottom: 5px;
+        }
+        a:last-of-type{
+          border-bottom: 3px solid orange;
+          padding-bottom: 5px;
+        }
+    }
+  }
+  main{
+    height: 1809px;
+    background-image: url('bck.png');
+    background-size: 1440px 1809px;
+    .content{
+      width: 830px;
+      .heading{
+        margin-top: 134px;
+        h1{
+          font-family: Kelly Slab;
+          font-size: 38px;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          margin-top: -35px;
+        }
+        .line{
+          width: 533px;
+          height: 25px;
+          background: linear-gradient(90deg, #F29653 0%, #D4643F 100%);
+          margin-left: 300px;
+        }
+      }
+      .book-left{
+        display: grid;
+        grid-template-columns: 120px 695px;
+        margin-top: 82px;
+        grid-column-gap: 17px;
+        img{
+          width: 120px;
+          height: 184.24px;
+        }
+        .inf{
+          margin-top: -30px;
+          h2{
+            font-family: Poiret One;
+            font-size: 25px;
+            line-height: 19px;
+            letter-spacing: 2px;
+          }
+          article{
+            font-family: Podkova;
+            font-size: 14px;
+            line-height: 13px;
+            letter-spacing: 2px;
+          }
+          p, a{
+            font-family: Podkova;
+            font-size: 12px;
+            line-height: 10px;
+            letter-spacing: 2px;
+          }
+          p{
+            margin-bottom: 0;
+          }
+          a{
+            color: #D4643F;
+          }
+        }
+      }
+      .book-right{
+        display: grid;
+        grid-template-columns: 681px 120px;
+        margin-top: 71px;
+        grid-column-gap: 29px;
+        img{
+          width: 120px;
+          height: 184.24px;
+        }
+        .inf{
+          margin-top: -25px;
+          h2{
+            font-size: 28px;
+            line-height: 19px;
+            letter-spacing: 2px;
+          }
+          article{
+            font-family: Podkova;
+            font-size: 14px;
+            line-height: 13px;
+            letter-spacing: 2px;
+          }
+          p, a{
+            font-family: Podkova;
+            font-size: 12px;
+            line-height: 10px;
+            letter-spacing: 2px;
+          }
+          p{
+            margin-bottom: 0;
+          }
+          a{
+            color: #D4643F;
+          }
+        }
+      }
+      .book-right:last-of-type{
+        img{
+          width: 120px;
+height: 135.53px;
+        }
+      }
+      .more{
+        font-family: Podkova;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-top: 97px;
       }
     }
   }
