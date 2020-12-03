@@ -1,0 +1,97 @@
+menu{
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  margin: 0;
+  border-bottom: 1px solid #000000;
+  .links{
+    margin-left: 15%;
+    padding-top: 26px;
+    display: flex;
+    flex-direction: row;
+      a{
+        font-family: Poiret One;
+        color: #000000;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 27px;
+        margin-left: 45px;
+      }
+      a:hover{
+        border-bottom: 3px solid orange;
+        padding-bottom: 25px;
+      }
+      a:last-of-type{
+        border-bottom: 3px solid orange;
+        padding-bottom: 25px;
+      }
+  }
+}
+body{
+  margin: 0;
+}
+header{
+  background-image: url('bck.png');
+  height: 973px;
+  .main-h{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1076px;
+    .heading{
+      margin-top: 134px;
+      h1{
+        font-family: Kelly Slab;
+        font-size: 48px;
+        line-height: 16px;
+        position: absolute;
+        margin-top: -13px;
+      }
+      .line{
+        width: 693px;
+        height: 26px;
+        background: linear-gradient(90deg, #F29653 0%, #D4643F 100%);
+        margin-left: 370px;
+      }
+    }
+    p{
+      font-family: Podkova;
+      font-size: 24px;
+      line-height: 25px;
+      letter-spacing: 2px;
+    }
+    article{
+      font-family: Podkova;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 1.5px;
+    }
+
+  }
+}
+@media (max-width: 1440px) {
+  menu{
+    height: 45px;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+    .links{
+      margin-left: 15%;
+      padding-top: 11px;
+      display: flex;
+      flex-direction: row;
+        a{
+          font-size: 14px;
+          line-height: 27px;
+          margin-left: 40px;
+        }
+        a:hover{
+          border-bottom: 3px solid orange;
+          padding-bottom: 5px;
+        }
+        a:last-of-type{
+          border-bottom: 3px solid orange;
+          padding-bottom: 5px;
+        }
+    }
+  }
+}

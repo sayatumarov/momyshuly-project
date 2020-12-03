@@ -29,7 +29,7 @@ body {
     border-bottom: 3px solid orange;
     padding-bottom: 25px;
   }
-  menu .links a:last-of-type {
+  menu .links a:nth-last-of-type(2) {
     border-bottom: 3px solid orange;
     padding-bottom: 25px;
   }
@@ -154,7 +154,7 @@ body {
     border-bottom: 3px solid orange;
     padding-bottom: 5px;
   }
-  menu .links a:last-of-type {
+  menu .links a:nth-last-of-type(2) {
     border-bottom: 3px solid orange;
     padding-bottom: 5px;
   }

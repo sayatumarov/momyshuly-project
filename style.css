@@ -2,83 +2,81 @@ body {
   padding: 0;
   margin: 0;
 }
-@media (max-width: 1920px) {
-  menu {
-    padding: 0;
-    height: 80px;
-    margin: 0;
-    border-bottom: 1px solid #000000;
-  }
-  menu .links {
-    margin-left: 15%;
-    padding-top: 26px;
-    display: flex;
-    flex-direction: row;
-  }
-  menu .links a {
-    font-family: Poiret One;
-    color: #000000;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 27px;
-    margin-left: 45px;
-  }
-  menu .links a:hover {
-    border-bottom: 3px solid orange;
-    padding-bottom: 25px;
-  }
-  menu .links a:first-of-type {
-    border-bottom: 3px solid orange;
-    padding-bottom: 25px;
-  }
-  header {
-    height: 847px;
-    background: url('img/header.png');
-    margin-top: -5px;
-    padding: 0;
-  }
-  header .main-h {
-    height: 847px;
-    display: grid;
-    grid-template-columns: 440px 670px;
-    grid-column-gap: 272px;
-    justify-content: center;
-    margin-top: 105px;
-  }
-  header .main-h .inf {
-    margin-top: 75px;
-  }
-  header .main-h .inf h1 {
-    font-family: Kelly Slab;
-    font-size: 64px;
-    line-height: 30px;
-  }
-  header .main-h .inf .line {
-    margin-top: 75px;
-    width: 236px;
-    height: 31px;
-    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
-  }
-  header .main-h .inf p {
-    text-align: right;
-  }
-  header .main-h .inf .words {
-    margin-top: 127px;
-  }
-  main {
-    height: 3304px;
-    background: linear-gradient(180deg, #2b2b2b 0%, #000000 52.08%, #2b2b2b 100%);
-  }
-  main .content {
-    margin-top: 128px;
-    display: grid;
-    grid-template-rows: 408px 408px 408px 408px 408px;
-    grid-template-columns: 1284px;
-    grid-row-gap: 173px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-  }
+menu {
+  padding: 0;
+  height: 80px;
+  margin: 0;
+  border-bottom: 1px solid #000000;
+}
+menu .links {
+  margin-left: 15%;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+menu .links a {
+  font-family: Poiret One;
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 45px;
+}
+menu .links a:hover {
+  border-bottom: 3px solid orange;
+  padding-bottom: 25px;
+}
+menu .links a:first-of-type {
+  border-bottom: 3px solid orange;
+  padding-bottom: 25px;
+}
+header {
+  height: 847px;
+  background: url('img/header.png');
+  margin-top: -5px;
+  padding: 0;
+}
+header .main-h {
+  height: 847px;
+  display: grid;
+  grid-template-columns: 440px 670px;
+  grid-column-gap: 272px;
+  justify-content: center;
+  margin-top: 105px;
+}
+header .main-h .inf {
+  margin-top: 75px;
+}
+header .main-h .inf h1 {
+  font-family: Kelly Slab;
+  font-size: 64px;
+  line-height: 30px;
+}
+header .main-h .inf .line {
+  margin-top: 75px;
+  width: 236px;
+  height: 31px;
+  background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+}
+header .main-h .inf p {
+  text-align: right;
+}
+header .main-h .inf .words {
+  margin-top: 127px;
+}
+main {
+  height: 3304px;
+  background: linear-gradient(180deg, #2b2b2b 0%, #000000 52.08%, #2b2b2b 100%);
+}
+main .content {
+  margin-top: 128px;
+  display: grid;
+  grid-template-rows: 408px 408px 408px 408px 408px;
+  grid-template-columns: 1284px;
+  grid-row-gap: 173px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 @media (max-width: 1500px) {
   menu {
