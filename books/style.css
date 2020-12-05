@@ -4,137 +4,135 @@ span {
 body {
   margin: 0;
 }
-@media (max-width: 1920px) {
-  menu {
-    padding: 0;
-    height: 80px;
-    margin: 0;
-    border-bottom: 1px solid #000000;
-  }
-  menu .links {
-    margin-left: 15%;
-    padding-top: 26px;
-    display: flex;
-    flex-direction: row;
-  }
-  menu .links a {
-    font-family: Poiret One;
-    color: #000000;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 27px;
-    margin-left: 45px;
-  }
-  menu .links a:hover {
-    border-bottom: 3px solid orange;
-    padding-bottom: 25px;
-  }
-  menu .links a:nth-last-of-type(2) {
-    border-bottom: 3px solid orange;
-    padding-bottom: 25px;
-  }
-  main {
-    height: 2413px;
-    background-image: url('bck.png');
-  }
-  main .content {
-    width: 1077px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  main .content .heading {
-    margin-top: 134px;
-  }
-  main .content .heading h1 {
-    font-family: Kelly Slab;
-    font-size: 48px;
-    line-height: 16px;
-    letter-spacing: 0.2px;
-    position: absolute;
-    margin-top: -30px;
-  }
-  main .content .heading .line {
-    width: 693px;
-    height: 26px;
-    background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
-    margin-left: 380px;
-  }
-  main .content .book-left {
-    display: grid;
-    grid-template-columns: 170px 889px;
-    margin-top: 121px;
-    grid-column-gap: 17px;
-  }
-  main .content .book-left .inf {
-    margin-top: -30px;
-  }
-  main .content .book-left .inf h2 {
-    font-family: Poiret One;
-    font-size: 36px;
-    line-height: 19px;
-    letter-spacing: 2px;
-  }
-  main .content .book-left .inf article {
-    font-family: Podkova;
-    font-size: 18px;
-    line-height: 17px;
-    letter-spacing: 2px;
-  }
-  main .content .book-left .inf p,
-  main .content .book-left .inf a {
-    font-family: Podkova;
-    font-size: 15px;
-    line-height: 16px;
-    letter-spacing: 2px;
-  }
-  main .content .book-left .inf p {
-    margin-bottom: 0;
-  }
-  main .content .book-left .inf a {
-    color: #D4643F;
-  }
-  main .content .book-right {
-    display: grid;
-    grid-template-columns: 889px 170px;
-    margin-top: 101px;
-    grid-column-gap: 17px;
-  }
-  main .content .book-right .inf {
-    margin-top: -25px;
-  }
-  main .content .book-right .inf h2 {
-    font-family: Poiret One;
-    font-size: 36px;
-    line-height: 15px;
-    letter-spacing: 2px;
-  }
-  main .content .book-right .inf article {
-    font-family: Podkova;
-    font-size: 18px;
-    line-height: 17px;
-    letter-spacing: 2px;
-  }
-  main .content .book-right .inf p,
-  main .content .book-right .inf a {
-    font-family: Podkova;
-    font-size: 15px;
-    line-height: 15px;
-    letter-spacing: 2px;
-  }
-  main .content .book-right .inf p {
-    margin-bottom: 0;
-  }
-  main .content .book-right .inf a {
-    color: #D4643F;
-  }
-  main .content .more {
-    font-family: Podkova;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 2px;
-    margin-top: 97px;
-  }
+menu {
+  padding: 0;
+  height: 80px;
+  margin: 0;
+  border-bottom: 1px solid #000000;
+}
+menu .links {
+  margin-left: 15%;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+menu .links a {
+  font-family: Poiret One;
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 45px;
+}
+menu .links a:hover {
+  border-bottom: 3px solid orange;
+  padding-bottom: 25px;
+}
+menu .links a:nth-last-of-type(2) {
+  border-bottom: 3px solid orange;
+  padding-bottom: 25px;
+}
+main {
+  height: 2413px;
+  background-image: url('bck.png');
+}
+main .content {
+  width: 1077px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+main .content .heading {
+  margin-top: 134px;
+}
+main .content .heading h1 {
+  font-family: Kelly Slab;
+  font-size: 48px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  margin-top: -30px;
+}
+main .content .heading .line {
+  width: 693px;
+  height: 26px;
+  background: linear-gradient(90deg, #f29653 0%, #d4643f 100%);
+  margin-left: 380px;
+}
+main .content .book-left {
+  display: grid;
+  grid-template-columns: 170px 889px;
+  margin-top: 121px;
+  grid-column-gap: 17px;
+}
+main .content .book-left .inf {
+  margin-top: -30px;
+}
+main .content .book-left .inf h2 {
+  font-family: Poiret One;
+  font-size: 36px;
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+main .content .book-left .inf article {
+  font-family: Podkova;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 2px;
+}
+main .content .book-left .inf p,
+main .content .book-left .inf a {
+  font-family: Podkova;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+main .content .book-left .inf p {
+  margin-bottom: 0;
+}
+main .content .book-left .inf a {
+  color: #D4643F;
+}
+main .content .book-right {
+  display: grid;
+  grid-template-columns: 889px 170px;
+  margin-top: 101px;
+  grid-column-gap: 17px;
+}
+main .content .book-right .inf {
+  margin-top: -25px;
+}
+main .content .book-right .inf h2 {
+  font-family: Poiret One;
+  font-size: 36px;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+main .content .book-right .inf article {
+  font-family: Podkova;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 2px;
+}
+main .content .book-right .inf p,
+main .content .book-right .inf a {
+  font-family: Podkova;
+  font-size: 15px;
+  line-height: 15px;
+  letter-spacing: 2px;
+}
+main .content .book-right .inf p {
+  margin-bottom: 0;
+}
+main .content .book-right .inf a {
+  color: #D4643F;
+}
+main .content .more {
+  font-family: Podkova;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-top: 97px;
 }
 @media (max-width: 1440px) {
   menu {
